@@ -5,10 +5,21 @@
         <title>
             Home | Shivani Jani
         </title>
+        <!-- Set the Character set,so the browser knows which character set should be loaded and valid for this webpage-->
+        <meta charset ="UTF-8">
+        <!-- For modern responsive web development: -->
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <!--  Meta Data : -->
         <meta name = "description" content = "A website about Shivani Jani."> 
         <meta name = "author" content = "Shiani Jani">
+
+        <!-- Style(s): -->
+        <link rel = "stylesheet" type = "text/css" href = "css/main.css"> <!-- relative path start with the folder name whereas absoulte path start with the / -->
+
+        <!-- Script(s): -->
+        <!-- defer attribute will cause this script to wait until the body is loaded before executing ( important for DOM / element manipulation by script) -->
+        <script src = "js/scripts.js" type = "text/javascript" defer> </script>
+
     </head>
     <body>
          <h1>Home</h1>
@@ -30,10 +41,14 @@
              I'd like to share with each of you, my very favourite picture ! It is of a Pink Flower.Very Cool,Check it out below!
          </p>
         <figure>
-            <img src = "img/Flower.jpg" alt = "A Pink Flower.">
+            <!-- src is the location of the image. -->
+            <!-- alt is "alternative text" to describe the image. -->
+            <!-- title is a "pop-up" tooltip, for when you hover over the element. -->
+            <img src = "img/Flower.jpg" alt = "A Pink Flower." title = "A pink Flower">
             <figcaption>
                 Illustration credited to:
-                <a href ="https://pixabay.com/photos/meadow-flower-meadow-flowers-garden-5229169/">Heidelberg/Deutschland</a>
+                <!-- target =" _blank" makes the link open in a brand new tab ( leaving the original tab open.)-->
+                <a href ="https://pixabay.com/photos/meadow-flower-meadow-flowers-garden-5229169/" target = "_blank" title = "Click here to view the original author's profile" >Heidelberg/Deutschland</a>
             </figcaption>
         </figure>
     </body>
