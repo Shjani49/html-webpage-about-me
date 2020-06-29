@@ -58,7 +58,7 @@
 
             <lable for ="Password">Please Enter your Password:</lable>
             <!-- Type of "password" is the same as "text" but it will star out the content. This will NOT hide the content in form submissions. -->
-            <input id="passwword" name="password"type="text" >
+            <input id="passwword" name="password" type="password" >
 
             <br /> <br />
              <!-- I have labeled this section with paragraph there is no sigular element to tie a lable to.-->
@@ -77,6 +77,41 @@
             <lable for="other">Other</lable>
 
             <br /> <br />
+            <!-- Checkboxes are like radio button, except you can have multiple - or no- optoions selected.
+            Aside from the difference, the structure of the elment is very similar,with the attributes serving the same purpose.-->
+            <p>Please select all that Apply:</p>
+            <input id ="programing"type="Checkbox" name="Programing" value="Programing">
+            <lable for="programing">I like programingr</lable>
+            <input id ="Drawing"type="Checkbox" name="Drawing" value="Drawing">
+            <lable for="Drawing">I like Drawing</lable>
+            <input id ="swimming"type="Checkbox" name="swimming" value="swimming">
+            <lable for="swimming">I like Swimming</lable>
+
+            <br/><br/>
+            <!-- Select(drop-down lists) serve a somewhat similar function to radio buttons,but conserve space for larger lists.
+            They allow you to select one option from a list.
+        Thevalue of the selected option will be passed under the "name" attribute of the parent select.-->
+            <lable for="provice">Please select your province:</lable>
+            <br/><br/>
+            <select name="provice" id="provice">
+                <option value="AB">Alberta</option>
+	            <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+	            <option value="YT">Yukon</option>
+            </select>
+
+
+
+            <br/></br/>
 
              <!-- TODO : Comment Text Area
             A textarea element is essentially a multi-line 'input type="text"' element.
