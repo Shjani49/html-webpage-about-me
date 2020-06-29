@@ -44,11 +44,17 @@
             <li>CSS3</li>
             <li>PHP</li>
          </ul>
+         <!-- artical is a semantic structuring element that imples that the inner content is a self-contained artical and will make sense standing on its own.-->
          <artical>
          <h2>My Favourite Picture</h2>
-         <p>
-             I'd like to share with each of you, my very favourite picture ! It is of a Pink Flower.Very Cool,Check it out below!
-         </p>
+         <p>Below are some of my favourite pictures.</p>
+         <!-- Section is semantic structuring element that does not imply that the inner content is self contained. They can be used to break up articals and have subheadings-->
+         <selection>
+             <h3>Pink Flower</h3>
+            <p>
+                I'd like to share with each of you, my very favourite picture ! It is of a Pink Flower.Very Cool,Check it out below!
+            </p>
+        
         <figure>
             <!-- src is the location of the image. -->
             <!-- alt is "alternative text" to describe the image. -->
@@ -60,18 +66,29 @@
                 <a href ="https://pixabay.com/photos/meadow-flower-meadow-flowers-garden-5229169/" target = "_blank" title = "Click here to view the original author's profile" >Heidelberg/Deutschland</a>
             </figcaption>
         </figure>
+        </selection>
     </artical>
+    <!-- Aside is used for content that is tangentially related to the artical,but once again may not make full sense when taken out of the context.-->
+    <aside>
+        <h2>Hobbies</h2>
+        <p>
+            I also enjoy drawing and swimming !
+        </p>
+    </aside>
     </main>
 
         <footer>
             <h2>Footer</h2>
+            <P>Thanks for visiting my page..</P>
+            <!-- Div is a non-semantic block level styling element.-->
             <div>
             <p>
+                <!-- Spam is a non-semantic inline element.-->
                 &copy; Copyright 2020 <spam>TECHCareers</spam>;
                 All Rights Reserved
             </p>
             </div>
         </footer>
-    <
+    
     </body>
 </html>

@@ -2,6 +2,7 @@ body
 {
     background-color: salmon;
 }
+/* Element Selectors: Select every element on the page.*/
 header
 {
     background-color:red;
@@ -15,6 +16,13 @@ footer
 {
 background-color: slateblue;
 }
-p{
+
+/* Descendent Selectors: select every element on the page of the latter name that is a child (somewhere) of the former name. */
+footer p{
     background-color: yellow;
 }
+/* Direct Descendent Selectors(>): select every element on the page of the latter name that is a Direct child  of the former name. */
+footer >p{
+    background-color:orangered;
+}
+
