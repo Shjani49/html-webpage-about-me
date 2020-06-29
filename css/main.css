@@ -2,3 +2,19 @@ body
 {
     background-color: salmon;
 }
+header
+{
+    background-color:red;
+
+}
+main
+{
+background-color: green;
+}
+footer
+{
+background-color: slateblue;
+}
+p{
+    background-color: yellow;
+}
