@@ -59,7 +59,7 @@
             <!-- src is the location of the image. -->
             <!-- alt is "alternative text" to describe the image. -->
             <!-- title is a "pop-up" tooltip, for when you hover over the element. -->
-            <img src = "img/Flower.jpg" alt = "A Pink Flower." title = "A pink Flower">
+            <img class="photo Favourite" id="Flower" src = "img/Flower.jpg" alt = "A Pink Flower." title = "A pink Flower">
             <figcaption>
                 Illustration credited to:
                 <!-- target =" _blank" makes the link open in a brand new tab ( leaving the original tab open.)-->
@@ -67,6 +67,25 @@
             </figcaption>
         </figure>
         </selection>
+        <selection>
+            <h3>Rocky Mountain</h3>
+           <p>
+               I'd like to share with each of you, my very favourite picture ! It is of a Rocky Mountain.Very Cool,Check it out below!
+           </p>
+       
+       <figure>
+           <!-- src is the location of the image. -->
+           <!-- alt is "alternative text" to describe the image. -->
+           <!-- title is a "pop-up" tooltip, for when you hover over the element. -->
+           <img class="photo" id="Mountain"src = "img/Rocky_Mountain.jpg" alt = "A Rocky Mountain." title = "A Rocky Mountain">
+           <figcaption>
+               Illustration credited to:
+               <!-- target =" _blank" makes the link open in a brand new tab ( leaving the original tab open.)-->
+               <a href ="https://pixabay.com/photos/rocky-mountains-snow-mountain-snow-1082207/" target = "_blank" title = "Click here to view the original author's profile" >Free-Photos</a>
+           </figcaption>
+       </figure>
+       </selection>
+
     </artical>
     <!-- Aside is used for content that is tangentially related to the artical,but once again may not make full sense when taken out of the context.-->
     <aside>
@@ -84,6 +103,8 @@
             <div>
             <p>
                 <!-- Spam is a non-semantic inline element.-->
+
+                <!-- In our Index page, our copyright is inside of a div,meaning it does not satisfy "body>footer>p".Only direct descendent of footer will satisfy that selector.Therfore it is yellow.-->
                 &copy; Copyright 2020 <spam>TECHCareers</spam>;
                 All Rights Reserved
             </p>
