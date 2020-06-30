@@ -26,7 +26,6 @@ header, main, footer
 .flex{
     display:flex;
     justify-content: space-around;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -59,6 +58,7 @@ main.section:nth-of-type(1) p
 {
     width:48%;
 }
+/*Demo Staggered-width Two-column Layout */
 main.section:nth-of-type(2) p:first-child 
 {
     width: 23%;
@@ -70,6 +70,7 @@ main.section:nth-of-type(2) p:last-child
    
 
 }
+/*Demo Staggered-width Three-column Layout */
 main.section:nth-of-type(2) p:first-child 
 {
     width: 25%;
