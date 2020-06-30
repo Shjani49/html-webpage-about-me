@@ -23,11 +23,17 @@ header, main, footer
     border-radius: 10px;
 
 }
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
 .magenta
 {
     background-color: magenta;
     width: 200px;
     height: 200px;
+    margin: 0;
 
 }
 .orange
@@ -35,12 +41,14 @@ header, main, footer
     background-color: orange;
     width: 150px;
     height: 150px;
+    
 }
 .lime
 {
     background-color: lime;
     width:  300px;
     height: 300px;
+    
 }
 
 /* Id selectors (.) : are used to select the single element with the given ID. IDs have higher specificity than class selectors. */
