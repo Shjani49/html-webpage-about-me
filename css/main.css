@@ -24,31 +24,10 @@ header, main, footer
 
 }
 .flex{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: flex-end;
-}
-.magenta
-{
-    background-color: magenta;
-    width: 200px;
-    height: 200px;
-    margin: 0;
-
-}
-.orange
-{
-    background-color: orange;
-    width: 150px;
-    height: 150px;
-    
-}
-.lime
-{
-    background-color: lime;
-    width:  300px;
-    height: 300px;
-    
+    display:flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Id selectors (.) : are used to select the single element with the given ID. IDs have higher specificity than class selectors. */
@@ -74,4 +53,37 @@ main > p{
 .contact .mask
 {
     background-color: rgb(50,50,50,0.5);
+}
+/* Demo Equal-width Two-column Layout*/
+main.section:nth-of-type(1) p
+{
+    width:48%;
+}
+main.section:nth-of-type(2) p:first-child 
+{
+    width: 23%;
+
+}
+main.section:nth-of-type(2) p:last-child 
+{
+    width: 73%;
+   
+
+}
+main.section:nth-of-type(2) p:first-child 
+{
+    width: 25%;
+
+}
+main.section:nth-of-type(3) p:nth-child(2)
+{
+    width: 33%;
+    
+
+}
+main.section:nth-of-type(3) p:last-child(2)
+{
+    width: 35%;
+    
+
 }
